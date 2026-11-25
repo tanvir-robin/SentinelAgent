@@ -1,0 +1,9 @@
+The SentinelAgent-Bench data in data/ is licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+Copyright (c) 2026 Tanvir Islam Robin and Sadia Islam Shefa
+
+Seed examples drawn from public datasets (e.g. deepset/prompt-injections)
+remain under their original licenses. The data contains prompt injection and
+jailbreak attempts and is intended for research on detection and defense only.

@@ -1,0 +1,249 @@
+{
+  "total_samples": 19251,
+  "benign_samples": 8428,
+  "malicious_samples": 10823,
+  "family_counts": {
+    "Benign": {
+      "count": 8428,
+      "percentage": 43.78
+    },
+    "PromptLeak": {
+      "count": 2725,
+      "percentage": 14.16
+    },
+    "InstructionOverride": {
+      "count": 106,
+      "percentage": 0.55
+    },
+    "IndirectPromptInjection": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "ToolOutputPoisoning": {
+      "count": 252,
+      "percentage": 1.31
+    },
+    "RAGPoisoning": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "MemoryPoisoning": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "ContextManipulation": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "MultiTurnInjection": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "ConversationHistoryManipulation": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "AgentPlanningManipulation": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "FunctionCallingManipulation": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "ToolInvocationManipulation": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "PromptObfuscation": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "UnicodeObfuscation": {
+      "count": 388,
+      "percentage": 2.02
+    },
+    "Base64Obfuscation": {
+      "count": 778,
+      "percentage": 4.04
+    },
+    "HTMLInjection": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "MarkdownInjection": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "XMLInjection": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "JSONInjection": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "YAMLInjection": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "CSVInjection": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "SQLInjection": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "BrowserContentInjection": {
+      "count": 715,
+      "percentage": 3.71
+    },
+    "SearchResultInjection": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "EmailInjection": {
+      "count": 302,
+      "percentage": 1.57
+    },
+    "PDFInjection": {
+      "count": 307,
+      "percentage": 1.59
+    },
+    "READMEInjection": {
+      "count": 497,
+      "percentage": 2.58
+    },
+    "DocumentationInjection": {
+      "count": 505,
+      "percentage": 2.62
+    },
+    "LogFileInjection": {
+      "count": 1019,
+      "percentage": 5.29
+    },
+    "FakeSystemMessage": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "FakeDeveloperMessage": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "AuthorityImpersonation": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "RoleplayJailbreak": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "SocialEngineering": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "ReflectionManipulation": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "SelfCorrectionManipulation": {
+      "count": 100,
+      "percentage": 0.52
+    },
+    "Other": {
+      "count": 729,
+      "percentage": 3.79
+    }
+  },
+  "most_overrepresented_families": [
+    {
+      "family": "PromptLeak",
+      "count": 2725,
+      "percentage": 14.16
+    },
+    {
+      "family": "LogFileInjection",
+      "count": 1019,
+      "percentage": 5.29
+    },
+    {
+      "family": "Base64Obfuscation",
+      "count": 778,
+      "percentage": 4.04
+    },
+    {
+      "family": "Other",
+      "count": 729,
+      "percentage": 3.79
+    },
+    {
+      "family": "BrowserContentInjection",
+      "count": 715,
+      "percentage": 3.71
+    },
+    {
+      "family": "DocumentationInjection",
+      "count": 505,
+      "percentage": 2.62
+    },
+    {
+      "family": "READMEInjection",
+      "count": 497,
+      "percentage": 2.58
+    },
+    {
+      "family": "UnicodeObfuscation",
+      "count": 388,
+      "percentage": 2.02
+    }
+  ],
+  "most_underrepresented_families": [
+    {
+      "family": "IndirectPromptInjection",
+      "count": 100,
+      "percentage": 0.52
+    },
+    {
+      "family": "RAGPoisoning",
+      "count": 100,
+      "percentage": 0.52
+    },
+    {
+      "family": "MemoryPoisoning",
+      "count": 100,
+      "percentage": 0.52
+    },
+    {
+      "family": "ContextManipulation",
+      "count": 100,
+      "percentage": 0.52
+    },
+    {
+      "family": "MultiTurnInjection",
+      "count": 100,
+      "percentage": 0.52
+    },
+    {
+      "family": "ConversationHistoryManipulation",
+      "count": 100,
+      "percentage": 0.52
+    },
+    {
+      "family": "AgentPlanningManipulation",
+      "count": 100,
+      "percentage": 0.52
+    },
+    {
+      "family": "FunctionCallingManipulation",
+      "count": 100,
+      "percentage": 0.52
+    }
+  ],
+  "recommendations": [
+    "The dataset is still historically skewed toward PromptLeak and a few legacy families because no existing data was removed.",
+    "This balancing pass raises the floor for low-count classes, which improves minimum coverage without changing legacy distributions.",
+    "If you want tighter balance later, continue adding only to families still below your target threshold.",
+    "Keep using primary-vector labeling so structured and tool-mediated attacks do not collapse back into PromptLeak."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+ "minilm": {
+  "gate_mean": 0.5004724860191345,
+  "gate_frac_below_0.1": 0.0,
+  "gate_frac_above_0.9": 0.0,
+  "dims_mostly_suppressed(mean<0.2)": 0,
+  "dims_mostly_open(mean>0.8)": 0,
+  "dims_total": 384,
+  "gate_class_gap_mean_abs": 0.018581900745630264,
+  "silhouette_raw": 0.3440065085887909,
+  "silhouette_gated": 0.3503616154193878,
+  "silhouette_trust": 0.8062863945960999,
+  "fisher_raw": 12.891023654189828,
+  "fisher_gated": 10.747207040078406,
+  "fisher_trust": 19.02883666253968
+ },
+ "mpnet": {
+  "gate_mean": 0.5007032155990601,
+  "gate_frac_below_0.1": 0.0,
+  "gate_frac_above_0.9": 0.0,
+  "dims_mostly_suppressed(mean<0.2)": 0,
+  "dims_mostly_open(mean>0.8)": 0,
+  "dims_total": 768,
+  "gate_class_gap_mean_abs": 0.010211482644081116,
+  "silhouette_raw": 0.34778425097465515,
+  "silhouette_gated": 0.3489421308040619,
+  "silhouette_trust": 0.8555554151535034,
+  "fisher_raw": 15.178102453709872,
+  "fisher_gated": 11.244555587963191,
+  "fisher_trust": 22.970327049731832
+ }
+}
